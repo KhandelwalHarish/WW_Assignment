@@ -12,20 +12,22 @@ public class WWHomePage {
 
 	WebDriver driver =null;
 	String pageTitle;
-
+    
 	By find_studio = By.id("ela-menu-visitor-desktop-supplementa_find-a-studio");
 
 	public WWHomePage(WebDriver driver) {
 		this.driver = driver;
 	}
-
+    
+	//method to get page title
 	public String getPageTitle(){
 
 		pageTitle = driver.getTitle();
 
 		return pageTitle;
 	}
-
+   
+	// method to click "Find a studio" link
 	public void clickFindStudio() {
 
 		WebDriverWait wait = new WebDriverWait(driver, 20);
