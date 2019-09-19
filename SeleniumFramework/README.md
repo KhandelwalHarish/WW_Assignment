@@ -4,6 +4,8 @@ src/test/java/test/ReadTheFileContentsTest.java
 
 It uses Dict.java as data structure which can be found at the same location (src/test/java/test/Dict.java)
 
+The notepad file containing the data is located at src/test/resources/readContents.txt
+
 Please run it as java application
 
 **************************************************************************************************************
